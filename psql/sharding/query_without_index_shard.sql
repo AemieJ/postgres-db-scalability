@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE SELECT * FROM issues WHERE "title"='new';

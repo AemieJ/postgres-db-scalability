@@ -1,0 +1,1 @@
+explain analyse select * from employees where "firstName"='aab3238922bcc25a6f60';

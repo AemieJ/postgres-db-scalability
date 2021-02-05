@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE SELECT * FROM parts.issues_1 WHERE "title"='new';

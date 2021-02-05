@@ -1,0 +1,6 @@
+CREATE SEQUENCE IF NOT EXISTS partition
+    INCREMENT 1
+    START 1;
+
+ALTER SEQUENCE partition
+    OWNER TO aemiej;

@@ -1,0 +1,19 @@
+{
+  "name": "postgres-db-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node indexing.js",
+    "partition": "node partition.js",
+    "sharding": "node sharding.js"
+  },
+  "author": "AemieJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "pg": "^8.5.1"
+  }
+}

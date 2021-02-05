@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS employees;
+DROP SEQUENCE IF EXISTS indexing;

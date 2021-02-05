@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE SELECT * FROM issues WHERE "project_id"=1365;

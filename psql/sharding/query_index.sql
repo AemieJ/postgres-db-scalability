@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE SELECT * from parts.issues_2 WHERE "project_id"=1365;
