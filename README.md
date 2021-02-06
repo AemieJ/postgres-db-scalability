@@ -44,7 +44,7 @@ In the browser, locate to `localhost:7000`, within the terminal it will show the
 
 Later this, locate to `localhost:7000/app/v1/delete` for successful deletion of the entire setup of partition with postgres.
 
-## 2. Sharding
+## 3. Sharding
 
 Within the `psql/sharding/foreign-wrapper.sql` you must make the respective changes to add the username and password for the roles that are present within your postgres.
 
