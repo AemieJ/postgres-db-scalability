@@ -12,12 +12,12 @@ FOREIGN DATA WRAPPER postgres_fdw OPTIONS (dbname 'shard1',
 
 CREATE USER MAPPING IF NOT EXISTS
 for "aemiej" SERVER shard1 OPTIONS (user 'aemiej',
-                                         password '25031219');
+                                         password '******');
 
 
 CREATE USER MAPPING IF NOT EXISTS
 for "postgres" SERVER shard1 OPTIONS (user 'postgres',
-                                           password '25031219');
+                                           password '******');
 
 
 CREATE SERVER IF NOT EXISTS shard2
@@ -28,10 +28,10 @@ FOREIGN DATA WRAPPER postgres_fdw OPTIONS (dbname 'shard2',
 
 CREATE USER MAPPING IF NOT EXISTS
 for "aemiej" SERVER shard2 OPTIONS (user 'aemiej',
-                                         password '25031219');
+                                         password '******');
 
 
 CREATE USER MAPPING IF NOT EXISTS
 for "postgres" SERVER shard2 OPTIONS (user 'postgres',
-                                         password '25031219');
+                                         password '******');
 

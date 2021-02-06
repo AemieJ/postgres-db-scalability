@@ -9,7 +9,7 @@ const pool1 = new Pool({
     "host": "aemiej-mac.local",
     "port": 5432,
     "user":"aemiej",
-    "password" : "25031219",
+    "password" : "******",
     "database" : "aemiej-db",
     "max": 4
 });
@@ -18,7 +18,7 @@ const pool2 = new Pool({
     "host": "aemiej-mac.local",
     "port": 5432,
     "user":"aemiej",
-    "password" : "25031219",
+    "password" : "******",
     "database" : "shard1",
     "max": 4
 });
@@ -27,7 +27,7 @@ const pool3 = new Pool({
     "host": "aemiej-mac.local",
     "port": 5432,
     "user":"aemiej",
-    "password" : "25031219",
+    "password" : "******",
     "database" : "shard2",
     "max": 4
 });

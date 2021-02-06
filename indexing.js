@@ -9,7 +9,7 @@ const pool = new Pool({
     "host": "aemiej-mac.local",
     "port": 5432,
     "user":"aemiej",
-    "password" : "25031219",
+    "password" : "******",
     "database" : "aemiej-db",
     "max": 10
 });
